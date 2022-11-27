@@ -1,0 +1,211 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background: hsl(185, 41%, 84%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-family: "Space Mono";
+}
+
+.title {
+  width: 20%;
+  height: 40px;
+  margin: 0 0 50px 0;
+}
+
+.title p {
+  letter-spacing: 8px;
+  font-weight: 700;
+  text-align: center;
+  color: hsl(183, 100%, 15%);
+}
+
+main {
+  width: 60%;
+  height: auto;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  padding: 30px 10px;
+}
+
+.left {
+  width: 45%;
+  height: auto;
+}
+
+.left p {
+  color: hsl(184, 14%, 56%);
+  margin: 0 0 10px 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.e,
+.f {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.e {
+  margin-bottom: 40px;
+}
+
+.e img,
+.f img {
+  position: absolute;
+  left: 15px;
+  top: 14px;
+}
+
+.left input {
+  width: 100%;
+  height: 40px;
+  border: 3px solid white;
+  background: hsl(189, 14%, 97%);
+  border-radius: 5px;
+  text-align: right;
+  font-size: 20px;
+  padding: 0 15px;
+  font-weight: 700;
+  font-family: "Space Mono";
+  color: hsl(183, 100%, 15%);
+}
+
+.left input:focus,
+.left input:hover {
+  outline: none;
+  border: 3px solid hsl(172, 67%, 45%);
+}
+
+.up,
+.down {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.up div,
+.down div {
+  width: 30%;
+  height: 45px;
+  background: hsl(183, 100%, 15%);
+  color: white;
+  display: flex;
+  font-family: "Space Mono";
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.down {
+  margin: 10px 0 30px 0;
+}
+
+.down input {
+  width: 22.5%;
+  padding: 0;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.up div:hover,
+.down div:hover {
+  color: hsl(183, 100%, 15%);
+  background: hsl(185, 41%, 84%);
+  cursor: pointer;
+}
+
+.right {
+  width: 45%;
+  height: auto;
+  background: hsl(183, 100%, 15%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 180px 0;
+  position: relative;
+}
+
+.a {
+  width: 85%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 30px;
+}
+
+.a:nth-child(2) {
+  top: 104px;
+}
+
+.c,
+.d {
+  width: 50%;
+  height: auto;
+}
+
+.c p:nth-child(1) {
+  font-size: 15px;
+  color: white;
+}
+
+.c p:nth-child(2) {
+  font-size: 12px;
+  color: hsl(184, 14%, 56%);
+  font-weight: 700;
+}
+
+.d {
+  font-family: "Space Mono";
+  font-size: 50px;
+  color: hsl(172, 67%, 45%);
+  text-align: right;
+  font-weight: 700;
+}
+
+button {
+  width: 85%;
+  height: 40px;
+  background: hsl(172, 67%, 45%);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: "Space Mono";
+  position: absolute;
+  bottom: 30px;
+}
+
+button:hover {
+  background: hsl(185, 41%, 84%);
+}
